@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+body.dark {
+  background-color: #121212;
+  color: #eee;
+}
+header {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header.dark {
+  background-color: #004a75;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+nav ul li {
+  margin-left: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a.active {
+  text-decoration: underline;
+}
+.top-buttons button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #005fa3;
+  color: white;
+}
+.top-buttons button:hover {
+  background-color: #004a75;
+}
+main {
+  padding: 20px;
+}
+.teachers-list {
+  list-style: none;
+  padding: 0;
+}
+.teachers-list li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+form label {
+  display: block;
+  margin-top: 15px;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+form button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #005fa3;
+}
